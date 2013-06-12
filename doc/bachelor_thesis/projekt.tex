@@ -1,0 +1,74 @@
+\documentclass{include/fitthesis} 
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1, IL2]{fontenc}
+\usepackage{url}
+\DeclareUrlCommand\url{\def\UrlLeft{<}\def\UrlRight{>} \urlstyle{tt}}
+
+\frenchspacing % aktivuje použití některých českých typografických pravidel
+\usepackage{microtype}
+\usepackage{listings}
+
+\usepackage[
+  a4paper,
+  unicode,
+  colorlinks,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+]{hyperref}
+
+%\ifWis
+%\ifx\pdfoutput\undefined
+%\else
+%  \usepackage{color}
+%  \usepackage[unicode,colorlinks,hyperindex,plainpages=false,pdftex]{hyperref}
+%  \definecolor{links}{rgb}{0.4,0.5,0}
+%  \definecolor{anchors}{rgb}{1,0,0}
+%  \def\AnchorColor{anchors}
+%  \def\LinkColor{links}
+%  \def\pdfBorderAttrs{/Border [0 0 0] }
+%  \pdfcompresslevel=9
+%\fi
+%\fi
+
+\projectinfo{
+  %Prace
+  project=BP,
+  year=2010,
+  date=\today,
+  title.cs=Grafické intro 64kB s použitím OpenGL,
+  title.en=4kB Graphics Intro Based on OpenGL,
+  author=Tomáš Marek,
+  department=UPGM, % UPSY/UIFS/UITS/UPGM
+  supervisor=Adam Herout, %jmeno prijmeni skolitele
+  supervisor.title.p=Ing.,   %titul pred jmenem (nepovinne)
+  supervisor.title.a=Ph.D., 
+  keywords.cs={OpenGL, demoscene, 64kB demo, Catmull-Clark, python, C, zvukový syntetizér, GLSL, SDL},
+  keywords.en={OpenGL, demoscene, 64kB demo, Catmull-Clark, python, C, software synthesizer, GLSL, SDL}, 
+  abstract.cs={Tato práce se zabývá problematikou tvorby grafického dema. Jsou v ní ukázány některé metody, pomocí kterých je možno vměstnat velké modely, hudbu a další potřebné věci do progamu o maximální velikosti 64kB. Snaží se také o co nejrobustnější návrh frameworku pro vytváření 64kB dem, který by mohl být v budoucnu znovu použit a popřípadě i jednoduše rozšířen o další funkce. Výsledné demo prakticky ukazuje použití jednotlivých algoritmů, kterými se zabývá tato práce.},
+  abstract.en={This paper deals with issues of creating graphic demo. There are shown some methods by which it is possible to fit large models, music and other important things to the program sized at most 64kB. It also seeks for the most robust design of a freamework for creating 64kB demos which could be used in the future and easily extended to provide other functions. The final demo shows the implementation of algorithms described in this thesis.},
+  declaration={Prohlašuji, že jsem tuto bakalářskou práci vypracoval samostatně pod vedením pana Ing. Adama Herouta Ph.D. a že jsem uvedl všechny literární prameny a publikace ze kterých jsem čerpal.},
+  acknowledgment={Na tomto místě bych chtěl poděkovat panu Ing. Adamu Heroutovi Ph.D. za odborné vedení a užitečné rady k této bakalářské práci. Dále bych chtěl také poděkovat Bc. Janu Pinterovi, za pomoc při návrhu frameworku a své rodině za nápady a rady.} 
+}
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+  
+  % Seznam obrazku a tabulek (pokud prace obsahuje velke mnozstvi obrazku, tak se to hodi)
+  % \listoffigures
+  % \listoftables 
+  
+  \input{obsah} 
+\ifczech
+  \bibliographystyle{include/czechiso}
+\else 
+  \bibliographystyle{plain}
+\fi
+  \begin{flushleft}
+    \bibliography{literatura}
+  \end{flushleft}
+  \appendix
+  \input{prilohy}
+\end{document}

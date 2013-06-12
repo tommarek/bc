@@ -1,0 +1,7 @@
+.*.sw[po]
+*.pyc
+*.[od]
+bugslife
+bugslife.packed
+Makefile-final.mk
+/nbproject/

@@ -1,0 +1,62 @@
+\chapter{Obsah CD} 
+Přiložené CD obsahuje:
+\begin{itemize}
+  \item Zdrojové soubory dema a frameworku (adresář \texttt{/project/})
+    \begin{itemize}
+      \item Adresáře \texttt{framework} a \texttt{demo} a soubor \texttt{Makefile} pro překlad.
+    \end{itemize}
+  \item Audiovizuální záznam výsledného dema (adresář \texttt{/result/})
+    \begin{itemize}
+      \item Soubor \texttt{everythingIsPossible.avi}. Kvalita videa byla snížena ukádáním.
+    \end{itemize}
+  \item Dokumentaci a technickou zprávu (adresář \texttt{/doc/})
+    \begin{itemize}
+      \item Adresáře \texttt{bachelor\_thesis} a \texttt{doxygen}.
+    \end{itemize}
+  \item Plakát ve fmátu pdf a jpg (adresář \texttt{/result/})
+
+\end{itemize}
+
+\chapter{Manuál}
+\section{Překlad dema}
+Demo je překládáno pomocí překladače GCC a pro překlad je potřeba knihovna \emph{SDL}.
+K~překladu je dále potřeba mít nainstalovaný program \emph{UPX} a moduly pythonu \emph{pylab}, \emph{numpy} a \emph{scikits.audiolab}.
+
+Makefile projektu se nachází v~adresáři \texttt{/projekt/} na přiloženém CD.
+Demo je možné přeložit dvěma způsoby:
+\begin{itemize}
+  \item Bez komprese
+    \begin{itemize}
+      \item rychlý překlad
+      \item překlad příkazem \texttt{make} v~adresáři \texttt{/project/}
+      \item výsledkem překladu je nezkomprimovaný spustitelný soubor dema \\ \texttt{everythingIsPossible}
+    \end{itemize}
+
+  \item S~kompresí 
+    \begin{itemize}
+      \item pomalejší překlad, zkomprimovaný výstupní soubor
+      \item překlad příkazem \texttt{make D=0} v~adresáři \texttt{/project/}
+      \item výsledkem překladu je nezkomprimovaný spustitelný soubor dema \\ \texttt{everythingIsPossible} a zkomprimovaný \texttt{everythingIsPossible.packed} 
+    \end{itemize}
+\end{itemize}
+
+Pro překlad všech součástí práce byl vytvořen skrip \texttt{runMe.sh}, nacházející se v~kořenovém adresáři na přiloženém CD.
+Tento skript po přeložení všech částí výsledné soubory přesune do adresáře \texttt{/result}.
+
+\section{Spuštění dema}
+Po přeložení dema se spustitelný soubor nachází ve stejném adresáři jako makefile.
+V~závislosti na metodě překladu je možné demo spustit pro nekomprimovaný spustitelný soubor příkazem \texttt{./everythingIsPossible}, nebo pro zkomprimovaný spustitelný soubor \\ \texttt{./everythingIsPossible.packed}.
+Je-li demo přeloženo pomocí skriptu \texttt{runMe.sh}, pak se spustitelný soubor nachází v~adresáři \texttt{/result}.
+
+\section{Překlad dokumentace}
+\subsection{Překlad technické zprávy}
+Technická zpráva se nachází v~adresáři \texttt{/doc/bachelor\_thesis}.
+Pro její přeložení stačí v~tomto adresáři spustit příkaz \texttt{make}.
+Výsledným vygenerovaným souborem je \texttt{projekt.pdf}
+
+\subsection{Překlad dokumentace v~Doxygenu}
+Dokumentace Doxygenu se nachází v~adresáři \texttt{/doc/doxygen/}.
+Pro vygenerování této dokumentace je třeba ve výše zmíněném adresáři spustit příkaz \texttt{doxygen}.
+Tím se vygeneruje nový adresář \texttt{./doxygen\_doc}, ve kterém se nachází soubor \texttt{main.html} obsahující první stránku dokumentace.
+
+\chapter{Plakát}

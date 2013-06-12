@@ -1,0 +1,81 @@
+\select@language {czech}
+\contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Framework}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Rozvr\IeC {\v z}en\IeC {\'\i } frameworku}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Mana\IeC {\v z}er materi\IeC {\'a}l\IeC {\r u} (materialmanager)}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Mana\IeC {\v z}er model\IeC {\r u} (meshmanager)}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Mana\IeC {\v z}er hudby (musicmanager)}{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Mana\IeC {\v z}er sc\IeC {\'e}n (scenemanager)}{5}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Mana\IeC {\v z}er sekvenc\IeC {\'\i } (sequencemanager)}{5}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Mana\IeC {\v z}er textur (texturemanager)}{5}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Generovac\IeC {\'\i } skripty}{5}{subsection.2.1.7}
+\contentsline {subsubsection}{Skript komprimuj\IeC {\'\i }c\IeC {\'\i } modely}{6}{section*.2}
+\contentsline {subsubsection}{Skript ukl\IeC {\'a}daj\IeC {\'\i }c\IeC {\'\i } hudebn\IeC {\'\i } n\IeC {\'a}stroje}{6}{section*.3}
+\contentsline {chapter}{\numberline {3}Kompilace}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pou\IeC {\v z}it\IeC {\'e} p\IeC {\v r}ep\IeC {\'\i }na\IeC {\v c}e}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}\texttt {-nostdlib, -nodefaultlibs, -nostartfiles}}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}\texttt {-ffast-math}}{8}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}\texttt {-funsafe-loop-optimizations}}{8}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}\texttt {-fsingle-precision-constant}}{8}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}\texttt {-fno-stack-check}}{8}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}\texttt {-fno-keep-inline-functions}}{8}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}\texttt {-Os}}{8}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}\texttt {-s}}{8}{subsection.3.1.8}
+\contentsline {section}{\numberline {3.2}Komprese spustiteln\IeC {\'e}ho souboru}{8}{section.3.2}
+\contentsline {chapter}{\numberline {4}3D modely}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Reprezentace dat a vykreslov\IeC {\'a}n\IeC {\'\i }}{9}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Reprezentace dat}{9}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Vykreslov\IeC {\'a}n\IeC {\'\i }}{10}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Komprese modelu}{10}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Nahr\IeC {\'a}n\IeC {\'\i } modelu}{10}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Vy\IeC {\v c}i\IeC {\v s}t\IeC {\v e}n\IeC {\'\i } modelu}{10}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}P\IeC {\v r}e\IeC {\v r}azen\IeC {\'\i } vrchol\IeC {\r u}}{10}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Vygenerov\IeC {\'a}n\IeC {\'\i } delta sou\IeC {\v r}adnic}{11}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Komprese quad\IeC {\r u}}{11}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Export a pou\IeC {\v z}it\IeC {\'\i } v~demu}{11}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Rota\IeC {\v c}n\IeC {\'\i } modely}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Catmull-Clark}{11}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Popis algoritmu}{12}{subsection.4.4.1}
+\contentsline {chapter}{\numberline {5}Textury}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Generov\IeC {\'a}n\IeC {\'\i } textur}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Sinov\IeC {\'a} plazma}{13}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Osv\IeC {\v e}tlen\IeC {\'a} koule}{14}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Value noise a v\IeC {\'\i }ceokt\IeC {\'a}vov\IeC {\'y} value noise}{14}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Operace nad texturami}{15}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}S\IeC {\v c}\IeC {\'\i }t\IeC {\'a}n\IeC {\'\i } a od\IeC {\v c}\IeC {\'\i }t\IeC {\'a}n\IeC {\'\i } textur}{16}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}N\IeC {\'a}soben\IeC {\'\i } a d\IeC {\v e}len\IeC {\'\i } textur}{16}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Negace textury}{16}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Distorze}{16}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sinov\IeC {\'a} distorze}{16}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Mramor}{16}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Barevn\IeC {\'e} operace}{17}{section.5.4}
+\contentsline {section}{\numberline {5.5}Dal\IeC {\v s}\IeC {\'\i } \IeC {\'u}pravy a efekty}{17}{section.5.5}
+\contentsline {chapter}{\numberline {6}Materi\IeC {\'a}ly a shadery}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Shadery}{18}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Shadery v~demu}{18}{subsection.6.1.1}
+\contentsline {subsubsection}{St\IeC {\'\i }ny}{19}{section*.4}
+\contentsline {subsubsection}{P\IeC {\v r}\IeC {\'\i }m\IeC {\'e} odlesky}{20}{section*.5}
+\contentsline {subsubsection}{Difuzn\IeC {\'\i } sv\IeC {\v e}tlo}{20}{section*.6}
+\contentsline {chapter}{\numberline {7}Hudba}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Softwarov\IeC {\'y} syntetiz\IeC {\'a}tor}{21}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}P\IeC {\v r}evod a nahr\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } n\IeC {\'a}stroj\IeC {\r u}}{22}{subsection.7.1.1}
+\contentsline {subsubsection}{Postup p\IeC {\v r}evodu}{22}{section*.7}
+\contentsline {subsubsection}{Nahr\IeC {\'a}v\IeC {\'a}n\IeC {\'\i } n\IeC {\'a}stroj\IeC {\r u}}{22}{section*.8}
+\contentsline {subsection}{\numberline {7.1.2}ADSR ob\IeC {\'a}lka}{22}{subsection.7.1.2}
+\contentsline {chapter}{\numberline {8}Sc\IeC {\'e}na}{24}{chapter.8}
+\contentsline {section}{\numberline {8.1}Kamera}{24}{section.8.1}
+\contentsline {section}{\numberline {8.2}B\IeC {\'e}zierovy k\IeC {\v r}ivky}{25}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Algoritmus De Casteljau}{25}{subsection.8.2.1}
+\contentsline {chapter}{\numberline {9}Sekvence}{26}{chapter.9}
+\contentsline {section}{\numberline {9.1}\IeC {\v C}\IeC {\'a}st frameworku}{26}{section.9.1}
+\contentsline {section}{\numberline {9.2}\IeC {\v C}\IeC {\'a}st dema}{27}{section.9.2}
+\contentsline {chapter}{\numberline {10}V\IeC {\'y}sledn\IeC {\'e} demo}{28}{chapter.10}
+\contentsline {chapter}{\numberline {11}Z\IeC {\'a}v\IeC {\v e}r}{29}{chapter.11}
+\contentsline {chapter}{\numberline {A}Obsah CD}{31}{appendix.A}
+\contentsline {chapter}{\numberline {B}Manu\IeC {\'a}l}{32}{appendix.B}
+\contentsline {section}{\numberline {B.1}P\IeC {\v r}eklad dema}{32}{section.B.1}
+\contentsline {section}{\numberline {B.2}Spu\IeC {\v s}t\IeC {\v e}n\IeC {\'\i } dema}{32}{section.B.2}
+\contentsline {section}{\numberline {B.3}P\IeC {\v r}eklad dokumentace}{33}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}P\IeC {\v r}eklad technick\IeC {\'e} zpr\IeC {\'a}vy}{33}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}P\IeC {\v r}eklad dokumentace v~Doxygenu}{33}{subsection.B.3.2}
+\contentsline {chapter}{\numberline {C}Plak\IeC {\'a}t}{34}{appendix.C}

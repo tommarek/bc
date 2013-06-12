@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.7)
+The top-level auxiliary file: projekt.aux
+The style file: include/czechiso.bst
+Database file #1: literatura.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in breakpoint
+Warning--to sort, need author or key in minimumSpanningTree
+Warning--to sort, need author or key in hamiltonianPath
+Warning--to sort, need author or key in catmullClarkWP
+Warning--to sort, need author or key in plasma
+Warning--to sort, need author or key in noise
+You've used 10 entries,
+            3151 wiz_defined-function locations,
+            699 strings with 6421 characters,
+and the built_in function-call counts, 3039 in all, are:
+= -- 203
+> -- 62
+< -- 2
++ -- 34
+- -- 16
+* -- 143
+:= -- 306
+add.period$ -- 19
+call.type$ -- 10
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 300
+empty$ -- 349
+format.name$ -- 18
+if$ -- 680
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 68
+newline$ -- 48
+num.names$ -- 8
+pop$ -- 185
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 147
+stack$ -- 0
+substring$ -- 78
+swap$ -- 128
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 6
+while$ -- 10
+width$ -- 12
+write$ -- 86
+(There were 6 warnings)

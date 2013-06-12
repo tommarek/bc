@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{breakpoint}
+Breakpoint.
+\newline\urlprefix\url{http://breakpoint.untergrund.net/}
+
+\bibitem{catmullClarkWP}
+Catmull–Clark subdivision surfaceh. [online].
+\newline\urlprefix\url{http://en.wikipedia.org/wiki/Catmull-Clark_subdivision_%
+surface}
+
+\bibitem{hamiltonianPath}
+Hamiltonian path. [online].
+\newline\urlprefix\url{http://en.wikipedia.org/wiki/Hamiltonian_path}
+
+\bibitem{plasma}
+Lode's Computer Graphics Tutorial – Plasma. [online].
+\newline\urlprefix\url{http://www.student.kuleuven.be/~m0216922/CG/plasma.html}
+
+\bibitem{minimumSpanningTree}
+Minimum spanning tree. [online].
+\newline\urlprefix\url{http://en.wikipedia.org/wiki/Minimal_spanning_tree}
+
+\bibitem{noise}
+Perlin noise. [online].
+\newline\urlprefix\url{http://freespace.virgin.net/hugo.elias/models/m_perlin.%
+htm}
+
+\bibitem{gouraud}
+Gouraud, H.: Continuous Shading of Curved Surfaces. \emph{IEEE Transactions on
+  Computers}, ročník~20, 1971: s. 623--629, ISSN 0018-9340,
+  \doi{http://doi.ieeecomputersociety.org/10.1109/T-C.1971.223313}.
+
+\bibitem{texturesCON}
+Ile; Aardbei: Generating textures for 64k intros. [online].
+\newline\urlprefix\url{http://conspiracy.hu/articles/1/}
+
+\bibitem{extensionsOpenGL}
+Paul, B.: Using OpenGL extensions. [online], 1997.
+\newline\urlprefix\url{http://www.mesa3d.org/brianp/sig97/exten.htm}
+
+\bibitem{OpenGL}
+Shreiner, D.; Woo, M.; Neider, J.; aj.: \emph{OpenGL průvodce programátora}.
+  Brno: Computer press, 2006.
+
+\end{thebibliography}
